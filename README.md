@@ -61,6 +61,11 @@ Run the script to set up the data lake:
 python3 setup_nba_data_lake.py
 ```
 
+Output:
+
+![WhatsApp Image 2025-01-09 at 16 56 32_23dc8582](https://github.com/user-attachments/assets/3d5c5292-48a9-45cb-88df-6b4596dbcb85)
+
+
 You should see messages confirming successful resource creation.
 
 ## Step 5: Verify Resources
@@ -74,6 +79,11 @@ FROM nba_players
 WHERE Position = 'PG';
 ```
 Click Run to see the results.
+
+Output:
+![WhatsApp Image 2025-01-09 at 16 55 59_339f21e5](https://github.com/user-attachments/assets/8d2ca75b-09af-45d1-bebd-7000306eba3a)
+
+
 
 ## What We Learned
 1. Securing AWS services with least privilege IAM policies.
